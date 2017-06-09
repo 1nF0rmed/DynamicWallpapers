@@ -12,4 +12,4 @@ def extract(path):
         cv2.imwrite("img\\frame%d.jpg" % count, image)
         count += 1
 
-extract("C:\\Users\\1nf0rmed\\Downloads\\PROJECT_KILL_IT\\videoplayback.mp4")
+extract("Path to the video file")
