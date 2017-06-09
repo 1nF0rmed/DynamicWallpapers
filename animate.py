@@ -7,7 +7,7 @@ count = -1
 try:
     while 1:
         count = 0 if count==1200 else count+1
-        image_path = "C:\\Users\\1nf0rmed\\Desktop\\dynamic_desktop\\img\\frame%d.jpg" % count
+        image_path = "Absolute Path to img\\frame%d.jpg" % count
         try:
             SPI_SETDESKWALLPAPER = 20
             SPIF_UPDATEINIFILE = 1
